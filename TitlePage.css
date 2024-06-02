@@ -1,0 +1,30 @@
+/* TitlePage.css */
+.title-page {
+    text-align: center;
+    background: linear-gradient(135deg, #132033, #6C798D);
+    height: 100vh; /* Puri viewport ki height le */
+    display: flex; /* Flexbox ka istemal karein */
+    flex-direction: column; /* Child elements ko column mein rakhne ke liye */
+    justify-content: center; /* Vertical centering ke liye */
+    align-items: center; /* Horizontal centering ke liye */
+}
+
+.title-page h1,
+.title-page p {
+    color: #ffffff;
+}
+
+.title-page button {
+    background-color: #6C798D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* rounded shape */
+    margin-top: 20px;
+}
+
+.title-page button:hover {
+    background-color: #545f6a;
+}

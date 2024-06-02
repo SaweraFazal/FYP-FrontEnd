@@ -1,0 +1,77 @@
+/* LoginPage.css */
+.login-page {
+  background: linear-gradient(135deg, #132033, #6C798D);
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Vertical centering */
+  align-items: center; /* Horizontal centering */
+}
+
+.login-container {
+  background-color: #1f2b3d;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* Max width for responsiveness */
+}
+
+.login-container h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.login-container .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-container .form-group label {
+  color: #6C798D;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container .form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #6C798D;
+  background-color: #2c3e50;
+  color: #ffffff;
+}
+
+.login-container .form-group input::placeholder {
+  color: #6C798D;
+}
+
+.login-container button,
+.login-container .google-login-button {
+  width: 100%;
+  background-color: #6C798D;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover,
+.login-container .google-login-button:hover {
+  background-color: #545f6a;
+}
+
+.login-container .forgot-password {
+  color: #6C798D;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.login-container .forgot-password:hover {
+  color: #545f6a;
+}
